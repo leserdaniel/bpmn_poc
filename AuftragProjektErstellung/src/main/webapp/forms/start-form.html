@@ -1,17 +1,18 @@
-<strong>Here you would put the actual form to start the process</strong>
+<strong>Bitte geben sie hier den Pfad zur Konfigurationsdatei an</strong>
 
 <p>
-  You can use this form through Camunda Tasklist
-  by setting the formKey of a BPMN Start Event to:
-  <code>embedded:app:forms/embedded/start-form.html</code>
+  Nach Eingabe von Pfad bspw. 
+  <code>C:\Users\leser\Desktop\StadtwerkeBochumContentportal.json</code>
+  (noch klären wie genau es sein soll), wird der weitere Prozess ausgeführt. Kein gerades
+  Deutsch, aber hoffentlich gerader Prozess.
 </p>
 
 <form class="form-horizontal">
   <div class="control-group">
-    <label class="control-label">Your Name</label>
+    <label class="control-label">Pfad zu Konfiguration</label>
     <div class="controls">
       <input type="text" 
-             cam-variable-name="name"
+             cam-variable-name="konfig_pfad"
              cam-variable-type="String"
              required
              class="form-control" />
