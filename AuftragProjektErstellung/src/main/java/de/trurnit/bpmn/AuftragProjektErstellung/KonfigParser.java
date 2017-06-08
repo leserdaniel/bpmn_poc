@@ -23,7 +23,7 @@ public class KonfigParser implements JavaDelegate {
 		String konfig_check = (String) execution.getVariable("konfig_check");
 
 		LOGGER.info("KonfigParser ausgeführt: konfig_pfad " + konfig_pfad + " konfig_check " + konfig_check);
-
+		LOGGER.info("history check2" );
 	}
 
 }
